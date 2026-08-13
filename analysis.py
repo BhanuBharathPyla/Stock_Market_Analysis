@@ -236,3 +236,14 @@ connection.close()
 
 print("\nMySQL connection closed.")
 print("All visualizations created successfully!")
+
+# ============================================================
+# 11. BEST PERFORMING STOCK
+# ============================================================
+
+best_stock = df.loc[df["avg_daily_return_percent"].idxmax()]
+
+print("\n========== BEST PERFORMING STOCK ==========")
+print("Stock:", best_stock["symbol"])
+print("Average Daily Return:", best_stock["avg_daily_return_percent"], "%")
+print("Average Closing Price:", best_stock["avg_close_price"])
