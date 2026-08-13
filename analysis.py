@@ -247,3 +247,20 @@ print("\n========== BEST PERFORMING STOCK ==========")
 print("Stock:", best_stock["symbol"])
 print("Average Daily Return:", best_stock["avg_daily_return_percent"], "%")
 print("Average Closing Price:", best_stock["avg_close_price"])
+
+# ============================================================
+# 12. HIGHEST CLOSING PRICE BY STOCK
+# ============================================================
+
+highest_close = df.groupby("symbol")["max_close_price"].max()
+
+plt.figure(figsize=(8, 5))
+highest_close.plot(kind="bar")
+
+plt.title("Highest Closing Price by Stock")
+plt.xlabel("Stock")
+plt.ylabel("Highest Closing Price")
+plt.tight_layout()
+
+plt.savefig("visualizations/highest_closing_price.png")
+plt.show()
