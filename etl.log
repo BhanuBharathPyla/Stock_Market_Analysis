@@ -1,0 +1,46 @@
+2026-08-12 16:31:54,726 - INFO - ETL process started
+2026-08-12 16:31:54,753 - INFO - AAPL file loaded successfully. Rows: 6200
+2026-08-12 16:31:54,768 - INFO - GOOG file loaded successfully. Rows: 6200
+2026-08-12 16:31:54,782 - INFO - MSFT file loaded successfully. Rows: 6200
+2026-08-12 16:31:54,785 - INFO - Total rows before cleaning: 18600
+2026-08-12 16:31:54,803 - INFO - Date column converted to datetime
+2026-08-12 16:31:54,851 - INFO - Duplicates removed: 600
+2026-08-12 16:31:54,851 - INFO - Duplicates remaining: 0
+2026-08-12 16:31:54,867 - INFO - Missing close_price before: 540
+2026-08-12 16:31:54,867 - INFO - Missing close_price after: 0
+2026-08-12 16:31:54,869 - INFO - Missing volume before: 360
+2026-08-12 16:31:54,870 - INFO - Missing volume after: 0
+2026-08-12 16:35:09,858 - INFO - ETL process started
+2026-08-12 16:35:09,878 - INFO - AAPL file loaded successfully. Rows: 6200
+2026-08-12 16:35:09,891 - INFO - GOOG file loaded successfully. Rows: 6200
+2026-08-12 16:35:09,902 - INFO - MSFT file loaded successfully. Rows: 6200
+2026-08-12 16:35:09,905 - INFO - Total rows before cleaning: 18600
+2026-08-12 16:35:09,915 - INFO - Date column converted to datetime
+2026-08-12 16:35:09,950 - INFO - Duplicates removed: 600
+2026-08-12 16:35:09,950 - INFO - Duplicates remaining: 0
+2026-08-12 16:35:09,959 - INFO - Missing close_price before: 540
+2026-08-12 16:35:09,959 - INFO - Missing close_price after: 0
+2026-08-12 16:35:09,961 - INFO - Missing volume before: 360
+2026-08-12 16:35:09,961 - INFO - Missing volume after: 0
+2026-08-12 16:35:09,971 - INFO - Invalid high_price before: 11364
+2026-08-12 16:35:09,972 - INFO - Invalid high_price after: 0
+2026-08-12 19:09:52,027 - INFO - ETL process started
+2026-08-12 19:09:52,088 - INFO - AAPL file loaded successfully. Rows: 6200
+2026-08-12 19:09:52,189 - INFO - GOOG file loaded successfully. Rows: 6200
+2026-08-12 19:09:52,212 - INFO - MSFT file loaded successfully. Rows: 6200
+2026-08-12 19:09:52,219 - INFO - Total rows before cleaning: 18600
+2026-08-12 19:09:52,248 - INFO - Date column converted to datetime
+2026-08-12 19:09:52,371 - INFO - Duplicates removed: 600
+2026-08-12 19:09:52,372 - INFO - Duplicates remaining: 0
+2026-08-12 19:09:52,400 - INFO - Missing close_price before: 540
+2026-08-12 19:09:52,400 - INFO - Missing close_price after: 0
+2026-08-12 19:09:52,402 - INFO - Missing volume before: 360
+2026-08-12 19:09:52,403 - INFO - Missing volume after: 0
+2026-08-12 19:09:52,415 - INFO - Invalid high_price before: 11364
+2026-08-12 19:09:52,415 - INFO - Invalid high_price after: 0
+2026-08-12 19:09:52,427 - INFO - Invalid low_price before: 11412
+2026-08-12 19:09:52,428 - INFO - Invalid low_price after: 0
+2026-08-12 19:09:52,431 - INFO - Daily return calculated
+2026-08-12 19:09:52,438 - INFO - Trend classification completed
+2026-08-12 19:09:52,606 - INFO - Cleaned data saved to data/processed/cleaned_stock_data.csv
+2026-08-12 19:09:52,606 - INFO - ETL process completed successfully
