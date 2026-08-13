@@ -48,3 +48,11 @@ The project generates stock summaries and graphical visualizations to compare th
 ## Author
 
 Bhanu Bharath Kumar Pyla
+
+## Additional Features
+
+This version of the project also includes:
+
+- Identification of the best performing stock based on average daily return.
+- Visualization of the highest closing price for each stock.
+- Stock performance comparison using Python and SQL.
